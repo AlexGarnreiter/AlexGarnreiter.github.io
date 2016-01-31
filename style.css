@@ -1,0 +1,68 @@
+#Mad-Max {
+	color: brown;
+}
+
+#Star-Wars {
+	color: red;
+}
+
+#Spotlight {
+	color: green;
+}
+
+.navigation {
+	list-style: none;
+}
+
+.navigation-link {
+	font-size: 300%;
+}
+
+.Alex {
+	background-color: #008FFF;
+	margin: auto;
+	width: 750px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Arial", sans-serif;
+}
+
+p {
+	font-size: 20px;
+	font-family: "Courier New";
+}
+
+#third-man {
+	color: yellow;
+	background-color: black;
+}
+
+#numbers {
+	color: purple;
+}
+
+.movie-list {
+	font-size: 250%;
+}
+
+#poster-border {
+	padding: 5em;
+}
+
+.border {
+	border: 1px solid #ff0000;
+}
+
+h2 em {
+	color: orange;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url(waves.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

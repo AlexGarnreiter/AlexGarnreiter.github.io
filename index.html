@@ -1,39 +1,47 @@
 <html>
 <head>
 	<title>All about Alex</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-	<h1>Alex Garnreiter</h1>
+	<h1 class="Alex">Alex Garnreiter</h1>
 
-		<p>Learn more about Alex! He could be your bestest friend.</p>
+		<p class="Alex">Learn more about Alex! He could be your bestest friend.</p>
 
-		<p>Hi! My name is Alex!</p>
+		<p class="Alex">Hi! My name is Alex!</p>
 
 		<p>My favorite movies of 2015:</p>
 
-		<ul>
-			<li>Mad Max: Fury Road</li>
-			<li>Star Wars Episode VII: The Force Awakens</li>
-			<li>Spotlight</li>
-		</ul>
+		<ol>
+			<div class="movie-list">
+				<li id="Mad-Max">Mad Max: Fury Road</li>
+				<li id="Star-Wars">Star Wars Episode VII: The Force Awakens</li>
+				<li id="Spotlight">Spotlight</li>
+			</div>
+		</ol>
 
 		<p>My favorite numbers of 2015:</p>
 
-		<ol>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-		</ol>
+		<ul class="navigation">
+			<div id="numbers">
+				<li class="navigation-link">1</li>
+				<li class="navigation-link">2</li>
+				<li class="navigation-link">3</li>
+			</div>
+		</ul>
 
 		<p><a href="mailto:alejandro.garnreiter@gmail.com">Say hi!</a></p>
 
-		<img src="http://ia.media-imdb.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_UY1200_CR97,0,630,1200_AL_.jpg" alt="Mad Max: Fury Road Poster"/>
+		<div id="poster-border">
+			<img src="http://ia.media-imdb.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_UY1200_CR97,0,630,1200_AL_.jpg" alt="Mad Max: Fury Road Poster"/>
 
-		<img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/star-wars-force-awakens-official-poster.jpg" alt="Star Wars Episode VII: The Force Awakens"/>
+		
+			<img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/10/star-wars-force-awakens-official-poster.jpg" alt="Star Wars Episode VII: The Force Awakens Poster"/>
 
-		<img src="http://www.screenrelish.com/wp-content/uploads/2015/08/SPOTLIGHT-Poster.jpg" alt="Spotlight"/>
-
-		<br/>
+			<img src="http://www.screenrelish.com/wp-content/uploads/2015/08/SPOTLIGHT-Poster.jpg" alt="Spotlight Poster"/>
+		</div>
 
 		<!-- This is a comment -->
 
@@ -43,18 +51,25 @@
 
 	<a href="https://betamore.com/" target="_blank">Betamore</a>
 
-	<p>My favorite website is <a href="http://www.thirdmanrecords.com">Third Man Records</a></p>
+	<p>My favorite website is <a href="http://www.thirdmanrecords.com" target="_blank"><span id="third-man">Third Man Records</span></a></p>
 
-	<table>
-		<tr>
-			<th>1</th>
-			<th>2</th>
-		</tr>
-		<tr>
-			<td>A</td>
-			<td>B</td>
-		</tr>
-	</table>
+	<div class="border">
+		<table>
+			<tr>
+				<th>Head 1</th>
+				<th>Head 2</th>
+			</tr>
+			<tr>
+				<td>Data 1</td>
+				<td>Data 2</td>
+			</tr>
+		</table>
+	</div>
 
 </body>
+
+<script type="text/javascript">
+	alert('Hello World!');
+</script>
+
 </html>
